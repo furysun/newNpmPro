@@ -1,3 +1,25 @@
 p{
     color: pink;
 }
+
+#elevator{
+    height: 50px;
+    width: 50px;
+    color: pink;
+}
+.elevator{
+    display: flex;
+}
+
+.human{
+    margin-left:10px;
+    color: cornflowerblue;
+}
+.number-floor{
+    margin-bottom: 10px;
+    color: plum;
+}
+
+#button{
+    margin-top: 10px;
+}
