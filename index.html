@@ -5,9 +5,70 @@
     <title><3</title>
 </head>
 <body>
-<div id="root">
+
+<div id="login">
+    <p>login:</p>
+    <input type="text" placeholder="login"/>
+    <p>password:</p>
+    <input type="password" placeholder="password"/>
+    <p></p>
+    <button id="login-button">Ok</button>
+    <button id="registration-button">registration</button>
 </div>
 
+<div id="registration" hidden>
+    <p>name:</p>
+    <input type="text" placeholder="name"/>
+    <p>confirm login and password</p>
+    <input type="text" placeholder="login"/>
+    <input type="password" placeholder="password"/>
+    <p></p>
+    <button id="goHome">Ok</button>
+</div>
+
+<div id="home" hidden>
+    <div class="task">
+        <p class="hello">Hello, user!</p>
+        <button id="logout">logout</button>
+    </div>
+
+    <div class="task">
+        1) <input id="text" type="text" value="mif"/>
+        <input id="checkbox" type="checkbox" checked/>
+
+
+        <select id="select">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel" selected>Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <button id="ok-button">Ok</button>
+    </div>
+
+    <div class="task">
+        2)
+        <div class="rectangle">
+            <button id="plum">plum</button>
+            <button id="blue">blue</button>
+        </div>
+    </div>
+
+    <div class="task">
+3)
+        <ul id="list">
+            <li>I</li>
+            <li>LO</li>
+            <li>VE</li>
+            <li>U</li>
+        </ul>
+        <input id="number" type="text">
+        <input id="text-name" type="text">
+
+        <button id="ok-list">Ok^^</button>
+    </div>
+
+</div>
 
 </body>
 </html>

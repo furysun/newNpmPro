@@ -1,25 +1,21 @@
-p{
+.hello {
     color: pink;
 }
 
-#elevator{
-    height: 50px;
-    width: 50px;
-    color: pink;
-}
-.elevator{
-    display: flex;
+.rectangle {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
 }
 
-.human{
-    margin-left:10px;
-    color: cornflowerblue;
-}
-.number-floor{
-    margin-bottom: 10px;
+#plum {
     color: plum;
 }
 
-#button{
-    margin-top: 10px;
+#blue {
+    color: powderblue;
+}
+
+.task{
+    margin-bottom: 15px;
 }
