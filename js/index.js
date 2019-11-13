@@ -5,6 +5,8 @@ import {Task1} from "./tasks/task1";
 import {Task3} from "./tasks/task3";
 import {Task4} from "./tasks/task4";
 import {Task5} from "./tasks/task5";
+import {Task6} from "./tasks/task6";
+import {Task7} from "./tasks/task7";
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -19,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
     Task2.prepare();
     Task4.prepare();
     Task5.prepare();
+    Task6.prepare();
+    Task7.prepare();
 });
 
 

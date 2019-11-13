@@ -19,3 +19,11 @@
 .task{
     margin-bottom: 15px;
 }
+#status{
+    height: 50px;
+    background-color: papayawhip;
+}
+
+#error{
+    color: red;
+}

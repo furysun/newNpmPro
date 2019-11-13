@@ -7,9 +7,10 @@ export class Task5 {
         const name = document.getElementById('p-input').value;
 
         if (name.length <= 5) {
-            const showName = document.getElementById('p').innerText = name;
+             document.getElementById('p').innerText = name;
         } else {
-            alert('error');
+            document.getElementById('p').innerText = 'error';
+
         }
     }
 }
