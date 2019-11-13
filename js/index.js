@@ -7,11 +7,11 @@ import {Task4} from "./tasks/task4";
 import {Task5} from "./tasks/task5";
 import {Task6} from "./tasks/task6";
 import {Task7} from "./tasks/task7";
+import {LoginPage} from "./tasks/LoginPage";
 
 
 document.addEventListener("DOMContentLoaded", function () {
-
-    document.getElementById('login-button').onclick = Router.login;
+    document.getElementById('login-button').onclick = LoginPage.login;
     document.getElementById('registration-button').onclick = Router.registration;
     document.getElementById('goHome').onclick = Router.goHome;
     document.getElementById('logout').onclick = Router.goLoginPage;
